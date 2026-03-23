@@ -1,0 +1,50 @@
+# --- Python Specific ---
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+bin/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Virtual Environments ---
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# --- IDE / Editor Specific ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- macOS Specific ---
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- Project Specific ---
+*.log
+.python-version
+.mypy_cache/
+.pytest_cache/
+db.sqlite3
